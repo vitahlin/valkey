@@ -5,9 +5,8 @@ on: [push, pull_request]
 jobs:
   code-coverage:
     runs-on: ubuntu-latest
-        - name: Checkout repository
-    steps:
     
+    steps:
     - name: Checkout repository
       uses: actions/checkout@v4
     - name: Install lcov and run
