@@ -3,7 +3,7 @@ name: "Codecov"
 on: [push, pull_request]
 
 jobs:
-  test-ubuntu-latest:
+  code-coverage:
     runs-on: ubuntu-latest
         - name: Checkout repository
     steps:
