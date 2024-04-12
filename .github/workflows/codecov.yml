@@ -10,10 +10,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Install lcov and run
+    - name: Install lcov and run test
       run: |
         sudo apt-get install lcov
         make lcov
+        
     - name: Upload code coverage
       uses: codecov/codecov-action@v4
       with:
