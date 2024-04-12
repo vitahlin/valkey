@@ -5,3 +5,10 @@ coverage:
         target: auto  # auto compares coverage to the previous base commit
 comment:
   require_changes: true
+
+coverage:
+  status:
+    project:
+      default:
+        target: 60%
+        threshold: 1%
