@@ -899,6 +899,23 @@ void testForCodecovCI(){
     printf("This is just test for codecov CI");
 }
 
+void decreaseCoverageFun1(){
+    printf("This is just test for codecov CI");
+}
+void decreaseCoverageFun2(){
+    printf("This is just test for codecov CI");
+}
+void decreaseCoverageFun3(){
+    int i = 0;
+    i++;
+    printf("This is just test for codecov CI");
+}
+void decreaseCoverageFun4(){
+    int i = 0;
+    i++;
+    printf("This is just test for codecov CI");
+}
+
 /* Free the result returned by sdssplitlen(), or do nothing if 'tokens' is NULL. */
 void sdsfreesplitres(sds *tokens, int count) {
     if (!tokens) return;
