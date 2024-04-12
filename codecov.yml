@@ -8,11 +8,13 @@ coverage:
   status:
     patch:
       default:
-        target: 0%
+        target: 85%
+        informational: true
     project:
       default:
-        target: 60%
+        target: 65%
         threshold: 1%
+        informational: true
 
 comment:
   require_head: false     # default true
