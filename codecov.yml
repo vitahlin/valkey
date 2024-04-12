@@ -17,8 +17,11 @@ coverage:
         informational: true
 
 comment:
-  require_head: false     # default true
+  require_head: false
   require_base: false
-  layout: "header, diff, files, condensed_footer" # remove "new" from "header" and "footer"
+  layout: "condensed_header, diff, files, condensed_footer" # remove "new" from "header" and "footer"
   hide_project_coverage: false # set to false
-  behavior: new
+  behavior: default
+
+github_checks:
+  annotations: false
