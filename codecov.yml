@@ -12,5 +12,5 @@ coverage:
         threshold: 1%
 
 comment:
-     layout: "header, files, footer" # remove "new" from "header" and "footer"
-      hide_project_coverage: false # set to false
+  layout: "header, files, footer" # remove "new" from "header" and "footer"
+  hide_project_coverage: false # set to false
