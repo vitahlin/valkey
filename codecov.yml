@@ -3,8 +3,6 @@ coverage:
     project:
       default:
         target: auto  # auto compares coverage to the previous base commit
-comment:
-  require_changes: true
 
 coverage:
   status:
@@ -12,3 +10,7 @@ coverage:
       default:
         target: 60%
         threshold: 1%
+
+comment:
+     layout: "header, files, footer" # remove "new" from "header" and "footer"
+      hide_project_coverage: false # set to false
