@@ -903,6 +903,30 @@ void sdsfreesplitres(sds *tokens, int count) {
     s_free(tokens);
 }
 
+void codecovTest1() {
+    int a, b, c;
+    a++;
+    b = a;
+    c = a + b;
+    printf("codecovTest1");
+}
+
+void codecovTest2() {
+    int a, b, c;
+    a++;
+    b = a;
+    c = a + b;
+    printf("codecovTest2");
+}
+
+void codecovTest3() {
+    int a, b, c;
+    a++;
+    b = a;
+    c = a + b;
+    printf("codecovTest3");
+}
+
 /* Append to the sds string "s" an escaped string representation where
  * all the non-printable characters (tested with isprint()) are turned into
  * escapes in the form "\n\r\a...." or "\x<hex-number>".
