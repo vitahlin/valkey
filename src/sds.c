@@ -962,6 +962,31 @@ int is_hex_digit(char c) {
            (c >= 'A' && c <= 'F');
 }
 
+int testCodecov1() {
+    int a, b, c;
+    a = 136337838;
+    b = a * 2;
+    c = a + b;
+    return c;
+}
+
+
+int testCodecov2() {
+    int a, b, c;
+    a = 1363378323;
+    b = a * 2;
+    c = a + b + b;
+    return c;
+}
+
+int testCodecov3() {
+    int a, b, c;
+    a = 1363378;
+    b = a * 2;
+    c = a + b + b + a;
+    return c;
+}
+
 /* Helper function for sdssplitargs() that converts a hex digit into an
  * integer from 0 to 15 */
 int hex_digit_to_int(char c) {
