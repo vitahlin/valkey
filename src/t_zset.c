@@ -70,6 +70,7 @@
  * Skiplist implementation of the low level API
  *----------------------------------------------------------------------------*/
 
+//todo:vitah 重复
 int zslLexValueGteMin(sds value, zlexrangespec *spec);
 int zslLexValueLteMax(sds value, zlexrangespec *spec);
 void zsetConvertAndExpand(robj *zobj, int encoding, unsigned long cap);
